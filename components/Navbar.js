@@ -49,7 +49,7 @@ export default function Navbar() {
         </div>
         {mobileMenuOpen && (
           <div className="md:hidden absolute top-24 right-0 left-0 bg-white z-10">
-            <div className="flex flex-col space-y-4 p-4 font-semibold">
+            <div className="flex flex-col space-y-4 p-4 font-semibold text-black">
               <Link href="/">
                 <p className="cursor-pointer">Home</p>
               </Link>
