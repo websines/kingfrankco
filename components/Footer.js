@@ -46,16 +46,28 @@ export default function Footer() {
           className="h-[150px] w-[200px]"
         />
         <div className="w-full md:w-[80%]  mt-16 mb-8 font-medium tracking-wide flex flex-row items-center justify-between flex-wrap space-x-2">
-          <Link href="/" className="text-gray-400 hover:text-gray-500 text-sm ">
+          <Link
+            href="/about"
+            className="text-gray-400 hover:text-gray-500 text-sm "
+          >
             About
           </Link>
-          <Link href="/" className="text-gray-400 hover:text-gray-500 text-sm ">
+          <Link
+            href="/faqs"
+            className="text-gray-400 hover:text-gray-500 text-sm "
+          >
             FAQs
           </Link>
-          <Link href="/" className="text-gray-400 hover:text-gray-500 text-sm ">
+          <Link
+            href="/terms"
+            className="text-gray-400 hover:text-gray-500 text-sm "
+          >
             Terms
           </Link>
-          <Link href="/" className="text-gray-400 hover:text-gray-500 text-sm ">
+          <Link
+            href="/contact-us"
+            className="text-gray-400 hover:text-gray-500 text-sm "
+          >
             Contact Us
           </Link>
         </div>

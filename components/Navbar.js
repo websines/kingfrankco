@@ -25,17 +25,17 @@ export default function Navbar() {
           <Link href="/">
             <p className="cursor-pointer">Home</p>
           </Link>
-          <Link href="/">
+          <Link href="/about">
             <p className="cursor-pointer">About</p>
           </Link>
 
           <Link href="/faqs">
             <p className="cursor-pointer">FAQ</p>
           </Link>
-          <Link href="/">
+          <Link href="/terms">
             <p className="cursor-pointer">Terms</p>
           </Link>
-          <Link href="/">
+          <Link href="/contact-us">
             <p className="cursor-pointer">Contact Us</p>
           </Link>
         </div>
@@ -53,17 +53,17 @@ export default function Navbar() {
               <Link href="/">
                 <p className="cursor-pointer">Home</p>
               </Link>
-              <Link href="/">
+              <Link href="/about">
                 <p className="cursor-pointer">About</p>
               </Link>
 
               <Link href="/faqs">
                 <p className="cursor-pointer">FAQ</p>
               </Link>
-              <Link href="/">
+              <Link href="/terms">
                 <p className="cursor-pointer">Terms</p>
               </Link>
-              <Link href="/">
+              <Link href="/contact-us">
                 <p className="cursor-pointer">Contact Us</p>
               </Link>
             </div>

@@ -26,7 +26,7 @@ export default function CTASection() {
             </span>
           </div>
           <div className="mx-auto mt-4 text-sm font-medium">
-            <Link href="/faq" className="flex flex-row items-center space-x-4">
+            <Link href="/faqs" className="flex flex-row items-center space-x-4">
               Read FAQs{" "}
               <span className="mx-2 font-medium">
                 <FaArrowRight className="hover:translate-x-2 duration-300 ease-in-out" />
