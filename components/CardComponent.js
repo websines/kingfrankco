@@ -13,7 +13,7 @@ export default function () {
           <div className="bg-green-500 rounded-full animate-ping w-2 h-2" />
           <p className="mx-2 text-sm font-semibold text-black">In Stock</p>
           <Link
-            href="/"
+            href="/single-product"
             className="px-4 py-2 bg-green-500 flex flex-row items-center space-x-2"
           >
             <FaWhatsapp className="text-white" />
