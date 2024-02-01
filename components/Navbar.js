@@ -13,11 +13,13 @@ export default function Navbar() {
     <header className="w-full p-4">
       <nav className="flex flex-grow flex-row justify-between items-center">
         <div className="p-2">
-          <img
-            src={"/main_logo_black.png"}
-            alt="logo"
-            className="h-auto w-[170px]"
-          />
+          <Link href="/">
+            <img
+              src={"/main_logo_black.png"}
+              alt="logo"
+              className="h-auto w-[170px]"
+            />
+          </Link>
         </div>
         <div className="md:flex hidden space-x-4 font-semibold">
           <Link href="/">

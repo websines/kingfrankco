@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function CTASection() {
   return (
@@ -16,15 +16,22 @@ export default function CTASection() {
           className="h-[570px] w-[550px] object-fill hidden md:block"
         ></img>
         <div className="absolute top-40 bg-white h-[220px] w-[280px] md:w-[440px] flex flex-col items-center justify-center px-12 text-black">
-          <span className="font-semibold text-2xl">New to KingFrankCo?</span>
+          <span className="font-semibold text-xl sm:text-2xl text-center">
+            New to KingFrankCo?
+          </span>
           <div className="mt-4 mx-auto text-xs font-medium text-center">
             <span>
               Don’t worry, everyone starts somewhere. We’ve put together a
               Brompton FAQ to help you get started.
             </span>
           </div>
-          <div className="mx-auto mt-4">
-            <Link href="/faq">FAQs</Link>
+          <div className="mx-auto mt-4 text-sm font-medium">
+            <Link href="/faq" className="flex flex-row items-center space-x-4">
+              Read FAQs{" "}
+              <span className="mx-2 font-medium">
+                <FaArrowRight className="hover:translate-x-2 duration-300 ease-in-out" />
+              </span>
+            </Link>
           </div>
         </div>
       </div>
