@@ -1,14 +1,13 @@
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
-import ListSection from "@/components/ListSection";
 import ReviewSlider from "@/components/ReviewSlider";
 import SaleDropdown from "@/components/SaleDropdown";
 
-export default function Home() {
+export default function FAQs() {
   return (
     <div className="bg-white">
       <SaleDropdown />
-      <ListSection />
+      FAQS
       <CTASection />
       <ReviewSlider />
       <Footer />

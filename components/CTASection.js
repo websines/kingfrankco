@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function CTASection() {
   return (
     <div className="p-2">
-      <div className="flex flex-col md:flex-row space-x-2 items-center justify-center relative">
+      <div className="flex flex-col md:flex-row space-x-8 items-center justify-center relative">
         <img
           src={"/img3.jpg"}
           alt="image1"
