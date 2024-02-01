@@ -45,7 +45,7 @@ export default function About() {
           </p>
         </div>
       </section>
-      <section className="w-full bg-gray-50 my-8 p-8 md:p-16 flex flex-col justify-center items-center">
+      <section className="w-full bg-gray-50 my-8 p-8 md:p-16 flex flex-col justify-center items-center text-black">
         <p className="font-semibold tracking-wide md:text-4xl text-3xl">
           How we manage low prices
         </p>
