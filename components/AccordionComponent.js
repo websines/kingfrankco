@@ -13,7 +13,7 @@ export default function AccordionComponent({ faqs }) {
             className="hs-accordion-toggle hs-accordion-active:text-blue-600 inline-flex justify-between items-center gap-x-3 w-full font-semibold text-start text-gray-800 py-4 px-5 hover:text-gray-500 disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:text-gray-400"
             aria-controls="hs-basic-active-bordered-collapse-one"
           >
-            {faq.question}
+            {index + 1}. {faq.question}
             <svg
               className="hs-accordion-active:hidden block w-3.5 h-3.5"
               xmlns="http://www.w3.org/2000/svg"
